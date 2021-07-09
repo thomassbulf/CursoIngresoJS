@@ -12,13 +12,16 @@ function SacarResto()
 	var resultado;
     var numeroUno;
     var numeroDos;
-    numeroUno=5;
-    numeroDos=10;
+    numeroUno=document.getElementById('txtIdNumeroDividendo').value;
+    numeroUno=parseInt(numeroUno);
+
+    numeroDos=document.getElementById('txtIdNumeroDivisor').value;
+    numeroDos=parseInt(numeroDos);
 
     resultado=numeroUno%numeroDos;
-    console.log("el resultado es: "+resultado);
-    resultado=2%10;
-    console.log("el resultado es: "+resultado);
+    console.log(numeroUno+"el resultado es: "+resultado);
+    console.log(numeroDos+"el resultado es: "+resultado);
+    
 
     alert(resultado);
 
