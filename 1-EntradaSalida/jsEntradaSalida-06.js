@@ -13,24 +13,17 @@ function sumar()
 	var suma;
 	var mensaje;
 
-	primerNumero=document.getElementById('txtIdNumeroUno').value;
-	primerNumero=parseInt(primerNumero);
+	primerNumero = document.getElementById('txtIdNumeroUno').value;
+	primerNumero = parseInt(primerNumero);
 
+	segundoNumero = document.getElementById('txtIdNumeroDos').value;
+	segundoNumero = parseInt(segundoNumero);
 
-	segundoNumero=document.getElementById('txtIdNumeroDos').value;
-    segundoNumero=parseInt(segundoNumero);
+	suma = primerNumero + segundoNumero;
+	
+	mensaje = "la suma es: "+suma;
 
-//mal suma=parseInt(primerNumero+segundoNumero);
-
-suma=primerNumero+segundoNumero;
-
-mensaje="la suma es: "+ suma;
-
-alert(mensaje);
-
-
-
-
+	alert(mensaje);
 
 
 

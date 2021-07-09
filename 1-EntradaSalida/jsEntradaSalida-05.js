@@ -11,19 +11,18 @@ function mostrar()
 	var edad;
 	var mensaje;
 
-	//nombre="José";
-	nombre=document.getElementById('txtIdNombre').value;
-	//edad="66";
-	edad=document.getElementById('txtIdEdad').value;
+	nombre = document.getElementById('txtIdNombre').value;
+	edad = document.getElementById('txtIdEdad').value;
+	//mensaje = "su nombre es: "+nombre+ " y su edad es: "+edad+ " años";
 
-	mensaje="usted se llama "+nombre+ "y tiene" +edad+" años";
-mensaje="usted se llama";
-mensaje=mensaje+nombre;
-mensaje=mensaje+" y tiene ";
-mensaje=mensaje+edad;
-mensaje=mensaje+" años ";
+	mensaje = "su nombre es: ";
+	mensaje = mensaje + nombre;
+	mensaje = mensaje + " y su edad es: ";
+	mensaje = mensaje + edad;
+	mensaje = mensaje + " años";
 
-alert(mensaje);
+
+    alert(mensaje);
 
 
 
