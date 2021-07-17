@@ -1,4 +1,9 @@
 function mostrar()
+/*
+Autor: Thomas Sbulf
+
+Ejercicio: IF 5
+*/
 {
 	var edad;
 
