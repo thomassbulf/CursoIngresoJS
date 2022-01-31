@@ -9,7 +9,7 @@ function mostrar()
 {
 	var nombreIngresado;
 	//nombreIngresado=document.getElementById('txtiIombre').value;
-    nombreIngresado =document.getElementById('txtIdNombre').value;
+    nombreIngresado=document.getElementById('txtIdNombre').value;
 	alert(nombreIngresado);
 	
 }
